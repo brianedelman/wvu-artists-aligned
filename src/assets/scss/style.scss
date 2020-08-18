@@ -75,7 +75,7 @@
       z-index: 1;
       background: #421E2F;
       width: 100%;
-			max-width: 320px;    
+			max-width: 320px;
 			border-radius: 0 0 0 12px;
       overflow: hidden;
     }
@@ -164,7 +164,7 @@
 		margin: 0 0 3px;
 		font-size: 20px;
 		font-weight: 600;
-		a { 
+		a {
 			color: var(--post-link-color);
 		}
 	}
@@ -238,21 +238,7 @@ article iframe {
 article img {
 	max-width: 100%;
 }
-.blog-post-content {
-	max-width: 70ch;
-	margin:0 auto;
-	padding: 20px;
-	line-height: 1.5;
-	font-size: 20px;
-}
-
-.blog-post {
-	.featured-image {
-		min-height: 50vh;
-		border-radius: 12px;
-	}
-}
-// Buttons 
+// Buttons
 .button {
 	--padding: 20px;
 	--margin: 20px;
@@ -307,40 +293,7 @@ article img {
 		margin: 0 auto;
 	}
 }
-// Contact page
-.contact-page {
-	.wrapper {
-		max-width: 768px;
-		margin: 0 auto;
-	}
-	.description {
-		line-height: 1.5;
-	}
-}
-.contact-form {
-	margin-top: 36px;
-	label {
-		color: var(--label-text);
-	}
-	input,
-	textarea {
-		width: 100%;
-		max-width: 100%;
-		margin: 8px 0 16px;
-		padding: 16px;
-		border: 6px solid #A4A89760;
-		border-radius: 12px;
-		appearance: none;
-		font-size: 18px;
-		font-weight: 600;
-		&:focus {
-			border-color: var(--input-focus-border);
-		}
-	}
-	textarea {
-		min-height: 200px;
-	}
-}
+
 .site-footer {
 	display: flex;
 	align-items: center;
@@ -435,4 +388,3 @@ article img {
 
 // Libraries
 @import "lib/prism-default"
-
